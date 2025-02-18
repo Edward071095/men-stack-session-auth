@@ -26,6 +26,7 @@ app.use(methodOverride("_method"));
 // Morgan for logging HTTP requests
 app.use(morgan('dev'));
 
+// Routers
 app.use('/auth', authController);
 
 // GET /
